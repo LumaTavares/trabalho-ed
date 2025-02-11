@@ -74,7 +74,7 @@ O arquivo `patient.c` implementa as funções definidas em `patient.h`, que são
       int id;
       char cpf[15];
       char nome[100];
-      char age[5];
+      int age;
       char year[20];
   }
   ```
