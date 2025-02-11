@@ -32,7 +32,7 @@ O sistema possui as seguintes funcionalidades:
 
 ### Requisitos:
 
-- MinGW instalado (para compilar programas em C no Windows)
+- MinGW instalado (para compilar programas em C no Windows ou Linux)
 - Um editor de texto ou IDE (VSCode, Code::Blocks, Dev-C++, etc.)
 - Terminal (CMD ou PowerShell)
 
@@ -127,11 +127,12 @@ O arquivo `patient.c` implementa as funções definidas em `patient.h`, que são
    5 - Exibir todos os pacientes
    Q - Sair
    ```
-
-2. Se o usuário escolher a opção `1`, ele poderá buscar um paciente pelo nome ou CPF.
-3. Para cadastrar um novo paciente, basta escolher a opção `4` e inserir os dados.
-4. Para atualizar um paciente, a opção `2` permite modificar os dados existentes.
-5. Para excluir um paciente, basta inserir o ID e confirmar a remoção.
+1. Se o usuário escolher a opção `1`, ele poderá buscar um paciente pelo nome ou CPF.
+2. Para atualizar um paciente, a opção `2` permite modificar os dados existentes.
+3. Para excluir um paciente, a opção ´3´ permite excluir com base no ID e confirmar a remoção.
+4. Para inserir um paciente, a opção `4` permite inserir os dados do novo paciente.
+5. Para mostrar na tela todos os pacientes presentes na lista, basta chamar a opção ´5´.
+Q. Para fechar o sistema, a opção `Q` permite fechar o sistema e liberar a memória alocada.
 
 ## Considerações Finais
 
