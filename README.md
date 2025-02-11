@@ -28,7 +28,7 @@ O sistema possui as seguintes funcionalidades:
 4. **Cadastro de novos pacientes**
 5. **Exibição de todos os registros**
 
-## Compilação e Execução no Windows
+## Compilação e Execução no Windows/Linux
 
 ### Requisitos:
 
