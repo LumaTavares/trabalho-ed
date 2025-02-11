@@ -113,6 +113,7 @@ O arquivo `patient.c` implementa as funções definidas em `patient.h`, que são
 - **`inserir_dados_csv()`** - Lê os dados do arquivo CSV e os carrega na lista.
 - **`ll_remove()`** - Remove um paciente da lista.
 - **`csv_remove()`** - Remove uma linha correspondente aos dados de um paciente no arquivo csv.
+- **`csv_remove()`**- Verifica o tamanho do arquivo csv.
 
 ## Exemplo de Uso
 
